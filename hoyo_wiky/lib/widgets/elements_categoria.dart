@@ -30,12 +30,16 @@ class ElementsCategoria extends StatelessWidget {
                 elementName: 'Cryo',
               ),
               Elements(
-                elementImg: 'assets/elementospng/Element_Hydro.png',
-                elementName: 'Hydro',
+                elementImg: 'assets/elementospng/Element_Electro.png',
+                elementName: 'Electro',
               ),
               Elements(
                 elementImg: 'assets/elementospng/Element_Geo.png',
                 elementName: 'Geo',
+              ),
+              Elements(
+                elementImg: 'assets/elementospng/Element_Hydro.png',
+                elementName: 'Hydro',
               ),
             ],
           ),
@@ -44,3 +48,13 @@ class ElementsCategoria extends StatelessWidget {
     );
   }
 }
+
+Map elements = {
+  "Anemo": 'assets/elementospng/Element_Anemo.png',
+  'Electro': '',
+  'Pyro': 'assets/elementospng/Element_Geo.png',
+  'Cryo': '',
+  'Dendro': '',
+  'Geo': 'assets/elementospng/Element_Geo.png',
+  'Hydro': 'assets/elementospng/Element_Geo.png'
+};
